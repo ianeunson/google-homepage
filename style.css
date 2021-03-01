@@ -1,4 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
 #googlelogo {
-    margin: 0 auto;
-    width: 10px;
+    width: 30%;
 }
