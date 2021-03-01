@@ -1,5 +1,11 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 800px;
@@ -7,4 +13,31 @@
 
 #googlelogo {
     width: 30%;
+}
+
+#search {
+    width: 50%;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    margin-top: 15px;
+    position: ;
+}
+
+.fas {
+    color: grey;
+}
+/* #searchbox {
+    display: flex;
+} */
+
+#buttons button {
+    font: 400 Arial;
+    margin-top: 30px;
+    height: 35px;
+    font-weight: 100;
+    font-size: 20px;
+    border: none;
+    color: grey;
+    font-size: 20px;
 }
